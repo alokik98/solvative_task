@@ -17,3 +17,22 @@
     border-color: #7952b3;
     box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
 }
+
+.display-cities table {
+    text-align: center;
+    width: 100%;
+}
+
+.display-cities table  th, .display-cities table  td {
+    padding: 8px;
+    border-bottom: 1px solid rgb(222,226,230);
+}
+
+.display-cities table  th{
+    font-weight: 700;
+}
+
+.flag {
+    width: 30%;
+    object-fit: cover;
+}
