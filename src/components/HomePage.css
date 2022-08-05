@@ -1,0 +1,19 @@
+.search-box input{
+    margin: 1rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    width: 241px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: rgb(255,255,255);
+    border-color: rgb(206,212,218);
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+.search-box input:active, .search-box input:focus{
+    border-color: #7952b3;
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
