@@ -1,4 +1,4 @@
-.search-box input{
+input[type='text']{
     margin: 1rem;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -13,7 +13,7 @@
     outline: none;
 }
 
-.search-box input:active, .search-box input:focus{
+input[type='text']:active, input[type='text']:focus{
     border-color: #7952b3;
     box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
 }
@@ -33,6 +33,30 @@
 }
 
 .flag {
-    width: 30%;
+    width: 20%;
     object-fit: cover;
+}
+
+.page-limit {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='number']{
+    margin-right: 10px;
+    padding: 6px;
+    outline: none;
+    border-radius: 4px;
+}
+
+input[type='number']:active, input[type='number']:focus{
+    border-color: #7952b3;
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
+
+.no-data {
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
 }
